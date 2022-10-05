@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/header/Header';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Skills from './components/skills/Skills';
+import Services from './components/services/Services';
+import AboutUs from './components/about_us/AboutUs';
+import Work from './components/Portfolio/Work';
+import Testimonials from './components/testimonials/Testimonials';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import ScrollUp from './components/scrollup/ScrollUp';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<>
+			<Header />
+
+			<main className="main">
+				<Home />
+				{/* About Us */}
+				<AboutUs />
+				{/* Overview of the day */}
+				<About />
+				{/* <Skills /> */}
+				{/* Details of the day */}
+				<Services />
+				{/* <Work /> */}
+				<Testimonials />
+				<Contact />
+			</main>
+
+			<Footer />
+			<ScrollUp />
+		</>
+	);
+};
 
 export default App;
