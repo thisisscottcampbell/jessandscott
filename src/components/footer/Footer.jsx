@@ -5,12 +5,14 @@ const Footer = () => {
 	return (
 		<footer className="footer">
 			<div className="footer__container container">
-				<h1 className="footer__title">J & S</h1>
+				<h1 className="footer__title">
+					<a href="#">J & S</a>
+				</h1>
 
 				<ul className="footer__list">
 					<li>
 						<a href="#about" className="footer__link">
-							9.19.23
+							8.19.23
 						</a>
 					</li>
 

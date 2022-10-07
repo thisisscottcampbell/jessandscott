@@ -27,14 +27,14 @@ export const Data = [
 	{
 		id: 4,
 		image: null,
-		title: 'Syd The Kid',
-		description: "Jess...it's never too late, just saying...",
+		title: 'Sydney 87',
+		description: `They say "speak now or forever hold your peace." So, Jess, I just want to say, ever since we met that one time, I've always felt that...I don't know...it's never too late, just saying.`,
 	},
 	{
 		id: 5,
 		image: null,
 		title: 'Ricky',
 		description:
-			"Where in the f*#% is Harwich?? And what is a Caped Cod?? You guys are f*#%$d ... but I'll bring the chicken fingers",
+			"Where in the f*#% is Harwich?? And what is a Caped Cod?? You guys are f*#%$d ... I'll bring the chicken fingers",
 	},
 ];

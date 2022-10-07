@@ -9,11 +9,13 @@ const Contact = () => {
 		e.preventDefault();
 
 		emailjs.sendForm(
-			'service_x1hewh5',
-			'template_2ki8hlo',
+			'service_l0lk0dn',
+			'template_ix9g155',
 			form.current,
-			'vxDcl4UI2jbOQBn6f'
+			'F5055NXKzaR8LJOFc'
 		);
+
+		window.alert('Message sent!');
 		e.target.reset();
 	};
 
