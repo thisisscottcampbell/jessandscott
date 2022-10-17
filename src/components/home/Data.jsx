@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const Data = () => {
-	return (
-		<div className="home__data">
-			<h1 className="home__title">
-				8/19/2023
-				{/* <svg
+  return (
+    <div className="home__data">
+      <h1 className="home__title">
+        8/19/2023
+        {/* <svg
 					width="36"
 					height="36"
 					viewBox="0 0 48 48"
@@ -54,18 +54,16 @@ const Data = () => {
 						fill="#EBA352"
 					></path>
 				</svg> */}
-			</h1>
-			<h3 className="home__subtitle">
-				Sooo, we're like, getting married and stuff
-			</h3>
-			<p className="home__description">
-				Only not on this particular day. But soon thereafter.
-			</p>
-			<h3 className="home__subtitle">
-				And we really want to celebrate with you :)
-			</h3>
+      </h1>
+      <h3 className="home__subtitle">
+        Sooo, we're like, getting married and stuff
+      </h3>
+      <p className="home__description">
+        Only not on this particular day. But soon thereafter.
+      </p>
+      <h3 className="home__subtitle">And we want to celebrate with you 🤘</h3>
 
-			{/* <a href="#contact" className="button button--flex">
+      {/* <a href="#contact" className="button button--flex">
 				Holler
 				<svg
 					class="button__icon"
@@ -85,8 +83,8 @@ const Data = () => {
 					></path>
 				</svg>
 			</a> */}
-		</div>
-	);
-};
+    </div>
+  )
+}
 
-export default Data;
+export default Data
