@@ -50,7 +50,9 @@ export const SignIn = ({ setUser, setPassword }) => {
         onClick={handleSubmit}
         style={{ margin: '1rem', padding: '.5rem', borderRadius: '10px' }}
       >
-        🥳 let me in 🥳
+        {!userInput.length || !passwordInput.length
+          ? ' 🥷 ❌ 🥷'
+          : '🥳 let me in 🥳'}
       </button>
     </div>
   )
