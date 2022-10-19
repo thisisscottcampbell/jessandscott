@@ -1,20 +1,40 @@
 import React, { useState } from 'react'
-const PASSWORD = { VALID: 'wedding' }
+
+const PASSWORD = {
+  VALID: 'certified',
+}
+
+const isValid = (password) => {
+  let isValid = false
+
+  for (const key in PASSWORD) {
+    const valid = PASSWORD[key]
+
+    if (password === valid) isValid = true
+  }
+  return isValid
+}
 
 export const SignIn = ({ setUser, setPassword }) => {
   const [userInput, setUserInput] = useState('')
   const [passwordInput, setPasswordInput] = useState('')
 
   const handleSubmit = () => {
-    if (passwordInput !== PASSWORD.VALID) {
-      setUserInput('')
+    if (!isValid(passwordInput)) {
       setPasswordInput('')
-      window.alert(' 🤖 wrong password, try again 🤖')
+      window.alert(
+        ` 🤖 "${passwordInput}" is incorrect. try lower case? learn to spell? 🤖`,
+      )
     } else {
       setUser(userInput)
       setPassword(passwordInput)
     }
   }
+
+  const isDisabled = !userInput.length || !passwordInput.length
+
+  const handleKeyPress = (e) =>
+    !isDisabled && e.key === 'Enter' && handleSubmit()
 
   return (
     <div
@@ -30,29 +50,27 @@ export const SignIn = ({ setUser, setPassword }) => {
         type="text"
         value={userInput}
         onChange={(e) => {
-          console.log(e.target.value)
           setUserInput(e.target.value)
         }}
-        placeholder=" your name"
+        placeholder=" name"
+        onKeyPress={(e) => handleKeyPress(e)}
       />
       <input
         style={{ margin: '1rem' }}
         type="password"
         value={passwordInput}
         onChange={(e) => {
-          console.log(e.target.value)
           setPasswordInput(e.target.value)
         }}
         placeholder=" password"
+        onKeyPress={(e) => handleKeyPress(e)}
       />
       <button
-        disabled={!userInput.length || !passwordInput.length}
+        disabled={isDisabled}
         onClick={handleSubmit}
         style={{ margin: '1rem', padding: '.5rem', borderRadius: '10px' }}
       >
-        {!userInput.length || !passwordInput.length
-          ? ' 🥷 ❌ 🥷'
-          : '🥳 let me in 🥳'}
+        {isDisabled ? ' 🥷 ❌ 🥷' : '🥳 let me in 🥳'}
       </button>
     </div>
   )

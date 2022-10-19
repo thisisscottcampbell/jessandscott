@@ -13,13 +13,11 @@ import Footer from './components/footer/Footer'
 import ScrollUp from './components/scrollup/ScrollUp'
 import SignIn from './components/login/Login'
 
-const PASSWORD = { VALID: 'wedding' }
-
 const App = () => {
   const [user, setUser] = useState(null)
   const [password, setPassword] = useState(null)
 
-  if (password === PASSWORD.VALID)
+  if (password)
     return (
       <>
         <Header />
