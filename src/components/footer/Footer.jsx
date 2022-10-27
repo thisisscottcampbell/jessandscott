@@ -1,22 +1,35 @@
-import React from 'react';
-import './footer.css';
+import React from 'react'
+import './footer.css'
 
 const Footer = () => {
-	return (
-		<footer className="footer">
-			<div className="footer__container container">
-				<h1 className="footer__title">
-					<a href="#">J & S</a>
-				</h1>
+  return (
+    <footer className="footer">
+      <div className="footer__container container">
+        <h1 className="footer__title">
+          <a
+            href="#"
+            style={{ color: 'black' }}
+            onMouseEnter={(e) => (e.target.style.color = 'coral')}
+            onMouseLeave={(e) => (e.target.style.color = 'black')}
+          >
+            J & S
+          </a>
+        </h1>
 
-				<ul className="footer__list">
-					<li>
-						<a href="#about" className="footer__link">
-							8.19.23
-						</a>
-					</li>
+        <ul className="footer__list">
+          <li>
+            <a
+              href="#about"
+              className="footer__link"
+              style={{ color: 'black' }}
+              onMouseEnter={(e) => (e.target.style.color = 'coral')}
+              onMouseLeave={(e) => (e.target.style.color = 'black')}
+            >
+              8.19.23
+            </a>
+          </li>
 
-					{/*<li>
+          {/*<li>
             <a href="#portfolio" className="footer__link">
               Projects
             </a>
@@ -27,9 +40,9 @@ const Footer = () => {
               Testimonials
             </a>
           </li>*/}
-				</ul>
+        </ul>
 
-				{/*<div className="footer__social">
+        {/*<div className="footer__social">
           <a
             href="https://www.facebook.com/"
             className="footer__social-link"
@@ -58,9 +71,9 @@ const Footer = () => {
         <span className="footer__copy">
           &#169; Crypticalcoder. All rigths reserved
         </span> */}
-			</div>
-		</footer>
-	);
-};
+      </div>
+    </footer>
+  )
+}
 
-export default Footer;
+export default Footer

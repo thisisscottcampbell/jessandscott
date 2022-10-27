@@ -14,7 +14,6 @@ import ScrollUp from './components/scrollup/ScrollUp'
 import SignIn from './components/login/Login'
 
 const App = () => {
-  const [user, setUser] = useState(null)
   const [password, setPassword] = useState(null)
 
   if (password)
@@ -23,7 +22,7 @@ const App = () => {
         <Header />
 
         <main className="main">
-          <Home user={user} />
+          <Home />
           {/* About Us */}
           <AboutUs />
           {/* Overview of the day */}
@@ -32,7 +31,7 @@ const App = () => {
           {/* Details of the day */}
           <Services />
           {/* <Work /> */}
-          <Testimonials />
+          {/* <Testimonials /> */}
           <Contact />
         </main>
 
@@ -41,7 +40,7 @@ const App = () => {
       </>
     )
 
-  return <SignIn setUser={setUser} setPassword={setPassword} />
+  return <SignIn setPassword={setPassword} />
 }
 
 export default App
