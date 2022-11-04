@@ -48,15 +48,15 @@ const About = () => {
             part in our celebration.
           </p>
           <p className="about__description_description">
-            So, what should you wear? A suit? A dress? Fancy shoes that give you
-            blisters? A too tight tie? Nothing at all? Sure, or in some cases,
-            for sure not. Truthfully, wear whatever you want. Dress as yourself.
-            We just want you to come and be you. Not some overheated and
-            uncomfortable festooned version of you (remember, we are talking
-            mid-August). If you need inspo, imagine you are going on a first
-            date with someone way cooler than you, but you don't want them to
-            know, so you do the nonchallantly cool thing and keep it casual and
-            breezy.
+            So, what does one wear to a pre-ception? A suit? A dress? Fancy
+            shoes that give you blisters? Nothing at all? Well, you should for
+            sure wear something but, truthfully, wear whatever you want. Dress
+            as yourself. We just want you to come and be you. Not some
+            overheated and uncomfortably festooned version of you (remember, we
+            are talking mid-August). If you need inspo, imagine you are going on
+            a first date with someone way cooler than you, but you don't want
+            them to know, at least not just yet, so you do the nonchallantly
+            cool thing and keep it light, casual, and breezy.
           </p>
         </div>
       </div>
