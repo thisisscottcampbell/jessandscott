@@ -84,11 +84,12 @@ const Header = () => {
             <li className="nav__item">
               <a
                 className="nav__link"
-                style={{ color: 'lightgray' }}
+                style={{ color: 'darkgray' }}
                 // onMouseEnter={(e) => (e.target.style.color = 'coral')}
                 // onMouseLeave={(e) => (e.target.style.color = 'black')}
               >
-                <i className="uil uil-file-alt nav__icon"></i> Registry
+                <i className="uil uil-file-alt nav__icon"></i> Registry coming
+                soon...
               </a>
             </li>
           </ul>
