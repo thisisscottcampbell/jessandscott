@@ -51,10 +51,10 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#services"
-                onClick={() => setActiveNav('#services')}
+                href="#details"
+                onClick={() => setActiveNav('#details')}
                 className={
-                  activeNav === '#services'
+                  activeNav === '#details'
                     ? 'nav__link active-link'
                     : 'nav__link'
                 }
@@ -83,15 +83,10 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#skills"
-                onClick={() => setActiveNav('#skills')}
-                className={
-                  activeNav === '#skills'
-                    ? 'nav__link active-link'
-                    : 'nav__link'
-                }
-                onMouseEnter={(e) => (e.target.style.color = 'coral')}
-                onMouseLeave={(e) => (e.target.style.color = 'black')}
+                className="nav__link"
+                style={{ color: 'lightgray' }}
+                // onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                // onMouseLeave={(e) => (e.target.style.color = 'black')}
               >
                 <i className="uil uil-file-alt nav__icon"></i> Registry
               </a>

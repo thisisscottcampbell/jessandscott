@@ -9,7 +9,7 @@ const Details = () => {
   }
 
   return (
-    <section className="services section" id="services">
+    <section className="services section" id="details">
       <h2 className="section__title">Details</h2>
       <span className="section__subtitle">you know, some specifics</span>
 

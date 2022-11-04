@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { useEffect } from 'react'
 
 const PASSWORD = {
   VALID: 'a9b1c8d2e7f3g6h4g5',
