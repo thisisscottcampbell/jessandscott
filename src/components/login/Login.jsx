@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
+import { useEffect } from 'react'
 
 const PASSWORD = {
-  VALID: 'certified',
+  VALID: 'a9b1c8d2e7f3g6h4g5',
 }
 
 const isValid = (password) => {
@@ -24,7 +25,10 @@ export const SignIn = ({ setPassword }) => {
       window.alert(
         ` 🤖 "${passwordInput}" is incorrect. try lower case? learn to spell? 🤖`,
       )
-    } else setPassword(passwordInput)
+    } else {
+      setPassword(passwordInput)
+      localStorage.setItem('is_auth', true)
+    }
   }
 
   const isDisabled = !passwordInput.length

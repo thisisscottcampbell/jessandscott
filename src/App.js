@@ -15,8 +15,9 @@ import SignIn from './components/login/Login'
 
 const App = () => {
   const [password, setPassword] = useState(null)
+  const is_auth = localStorage.getItem('is_auth')
 
-  if (password)
+  if (is_auth || password)
     return (
       <>
         <Header />
