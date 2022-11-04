@@ -51,6 +51,9 @@ const Details = () => {
                 <a
                   href="https://www.google.com/maps/place/12+7th+St,+Harwich,+MA+02645/@41.716446,-70.2162057,11z/data=!4m13!1m7!3m6!1s0x89fb3f8c916d7999:0x4c698d1cc8053267!2s12+7th+St,+Harwich,+MA+02645!3b1!8m2!3d41.716442!4d-70.07613!3m4!1s0x89fb3f8c916d7999:0x4c698d1cc8053267!8m2!3d41.716442!4d-70.07613"
                   target="_blank"
+                  style={{ color: 'steelblue' }}
+                  onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                  onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                 >
                   Show me on a map
                 </a>
@@ -198,7 +201,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Air BnB, assemble your squad and divy up the space.
+                    Air BnB, assemble your squad and divy up the space ⭐️
                   </p>
                 </li>
 
@@ -206,7 +209,13 @@ const Details = () => {
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Chatham Motel:{' '}
-                    <a href="https://chathammotel.com" target="_blank">
+                    <a
+                      href="https://chathammotel.com"
+                      target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
+                    >
                       take me there
                     </a>
                   </p>
@@ -219,6 +228,9 @@ const Details = () => {
                     <a
                       href="https://www.guestreservations.com/ambassador-inn-suites-south-yarmouth/booking"
                       target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
                       take me there
                     </a>
@@ -229,7 +241,13 @@ const Details = () => {
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Ocean Side Motel:{' '}
-                    <a href="http://osmotel.com/" target="_blank">
+                    <a
+                      href="http://osmotel.com/"
+                      target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
+                    >
                       take me there
                     </a>
                   </p>
@@ -242,6 +260,9 @@ const Details = () => {
                     <a
                       href="https://www.bestwestern.com/en_US/book/west-yarmouth/hotel-rooms/aiden-by-best-western-cape-point/propertyCode.22070.html"
                       target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
                       take me there
                     </a>
@@ -255,6 +276,9 @@ const Details = () => {
                     <a
                       href="https://www.allseasons.com/?gclid=CjwKCAjw8JKbBhBYEiwAs3sxN99oAgV7dH33i2szGVNYbCsGQfiSupwXGVM34PBZB4Za709_c1o4XBoCLK8QAvD_BwE"
                       target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
                       take me there
                     </a>
@@ -268,6 +292,9 @@ const Details = () => {
                     <a
                       href="http://www.holidayhillinnandsuites.com/"
                       target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
                       take me there
                     </a>
@@ -281,6 +308,9 @@ const Details = () => {
                     <a
                       href="https://www.reservations.com/hotel/jonathan-edwards-motel?rmcid=tophotels4&utm_source=googleads&gclid=CjwKCAjw8JKbBhBYEiwAs3sxN8kMx94UO0g2BySyQ4LA_rt9TNmpN9Bv8Oi4sgaZxJaPqJViztpgvhoCFagQAvD_BwE"
                       target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
                       take me there
                     </a>
@@ -291,7 +321,13 @@ const Details = () => {
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Tide Water Inn:{' '}
-                    <a href="https://www.tidewatercapecod.com/" target="_blank">
+                    <a
+                      href="https://www.tidewatercapecod.com/"
+                      target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
+                    >
                       take me there
                     </a>
                   </p>
@@ -304,6 +340,9 @@ const Details = () => {
                     <a
                       href="https://www.choicehotels.com/massachusetts/hyannis/comfort-inn-hotels/ma217?mc=llgoxxpx"
                       target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
                       take me there
                     </a>
@@ -317,6 +356,9 @@ const Details = () => {
                     <a
                       href="https://www.wyndhamhotels.com/travelodge/west-dennis-massachusetts/travelodge-cape-cod-area/overview?CID=LC:TL::GGL:RIO:National:11835&iata=00093796"
                       target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
                       take me there
                     </a>
@@ -327,7 +369,13 @@ const Details = () => {
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Guest Lodge, Dennis:{' '}
-                    <a href="https://www.guestlodge.net/" target="_blank">
+                    <a
+                      href="https://www.guestlodge.net/"
+                      target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
+                    >
                       take me there
                     </a>
                   </p>
@@ -340,6 +388,9 @@ const Details = () => {
                     <a
                       href="https://www.hilton.com/en/hotels/hyncchx-hampton-suites-cape-cod-west-yarmouth/?SEO_id=GMB-AMER-XS-HYNCCHX&y_source=1_MjA4NTM2NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
                       target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
                       take me there
                     </a>
