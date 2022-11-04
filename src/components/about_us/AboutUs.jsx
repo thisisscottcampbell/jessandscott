@@ -168,7 +168,7 @@ const AboutUs = () => {
           <AboutUsCard
             title="The road to victory"
             msg="The details are too many to be enumerated here, but things like
-						Mama learning she likes oysters and mussels and scary moves, and
+						Mama learning she likes oysters and mussels and scary movies, and
 						maybe even cats, seeing grand canyons, a pandemically vacant Times Square still on fire with lights, taking road trips, seeing
 						some of the greatest shows on earth, like, for instance, Monday
 						Night Raw, and so on and so forth, Scott, feeling like he can't
