@@ -26,7 +26,7 @@ const AboutUs = () => {
             }
           >
             <p style={{ paddingRight: '3px' }}>😎</p>
-            Him
+            His
           </div>
 
           <div
@@ -37,7 +37,7 @@ const AboutUs = () => {
             }
           >
             <p style={{ paddingRight: '3px' }}>💁‍♀️</p>
-            Her
+            Hers
           </div>
         </div>
 

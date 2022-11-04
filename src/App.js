@@ -2,12 +2,9 @@ import React, { useState } from 'react'
 import './App.css'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
-import About from './components/about/About'
-import Skills from './components/skills/Skills'
-import Services from './components/services/Services'
+import AboutTheDay from './components/about_the_day/AboutTheDay'
+import Details from './components/details/Details'
 import AboutUs from './components/about_us/AboutUs'
-import Work from './components/Portfolio/Work'
-import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import ScrollUp from './components/scrollup/ScrollUp'
@@ -23,16 +20,18 @@ const App = () => {
         <Header />
 
         <main className="main">
+          {/**Greeting/Top of page */}
           <Home />
-          {/* About Us */}
+
+          {/* Our story */}
           <AboutUs />
+
           {/* Overview of the day */}
-          <About />
-          {/* <Skills /> */}
+          <AboutTheDay />
+
           {/* Details of the day */}
-          <Services />
-          {/* <Work /> */}
-          {/* <Testimonials /> */}
+          <Details />
+
           <Contact />
         </main>
 

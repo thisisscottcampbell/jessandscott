@@ -28,6 +28,8 @@ const Header = () => {
                 className={
                   activeNav === '#home' ? 'nav__link active-link' : 'nav__link'
                 }
+                onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                onMouseLeave={(e) => (e.target.style.color = 'black')}
               >
                 <i className="uil uil-estate nav__icon"></i> Home
               </a>
@@ -40,6 +42,8 @@ const Header = () => {
                 className={
                   activeNav === '#about' ? 'nav__link active-link' : 'nav__link'
                 }
+                onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                onMouseLeave={(e) => (e.target.style.color = 'black')}
               >
                 <i className="uil uil-user nav__icon"></i> About The Day
               </a>
@@ -54,24 +58,12 @@ const Header = () => {
                     ? 'nav__link active-link'
                     : 'nav__link'
                 }
+                onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                onMouseLeave={(e) => (e.target.style.color = 'black')}
               >
                 <i className="uil uil-briefcase-alt nav__icon"></i> Details
               </a>
             </li>
-            {/* 
-						<li className="nav__item">
-							<a
-								href="#portfolio"
-								onClick={() => setActiveNav('#portfolio')}
-								className={
-									activeNav === '#portfolio'
-										? 'nav__link active-link'
-										: 'nav__link'
-								}
-							>
-								<i className="uil uil-scenery nav__icon"></i> Portfolio
-							</a>
-						</li> */}
 
             <li className="nav__item">
               <a
@@ -82,6 +74,8 @@ const Header = () => {
                     ? 'nav__link active-link'
                     : 'nav__link'
                 }
+                onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                onMouseLeave={(e) => (e.target.style.color = 'black')}
               >
                 <i className="uil uil-message nav__icon"></i> Holler
               </a>
@@ -96,6 +90,8 @@ const Header = () => {
                     ? 'nav__link active-link'
                     : 'nav__link'
                 }
+                onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                onMouseLeave={(e) => (e.target.style.color = 'black')}
               >
                 <i className="uil uil-file-alt nav__icon"></i> Registry
               </a>

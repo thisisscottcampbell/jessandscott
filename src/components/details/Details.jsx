@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './services.css'
 
-const Services = () => {
+const Details = () => {
   const [toggleState, setToggleState] = useState(0)
 
   const toggleTab = (index) => {
@@ -320,4 +320,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Details

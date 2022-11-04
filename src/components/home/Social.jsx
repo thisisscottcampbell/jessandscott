@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
 const Social = () => {
-	return (
-		<div className="home__social">
-			{/* <a
+  return (
+    <div className="home__social">
+      {/* <a
         href="https://www.instagram.com/"
         className="home__social-icon"
         target="_blank"
@@ -26,8 +26,8 @@ const Social = () => {
       >
         <i className="uil uil-github-alt"></i>
       </a> */}
-		</div>
-	);
-};
+    </div>
+  )
+}
 
-export default Social;
+export default Social
