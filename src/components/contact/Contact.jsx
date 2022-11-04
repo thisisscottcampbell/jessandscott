@@ -40,6 +40,7 @@ const Contact = () => {
             justifyContent: 'space-around',
             alignItems: 'center',
             padding: '1rem',
+            marginRight: '1rem',
           }}
         >
           <h2>Holler!</h2>
