@@ -14,7 +14,7 @@ const App = () => {
   const [password, setPassword] = useState(null)
   const is_auth = localStorage.getItem('is_auth')
 
-  const [isMobile, setIsMobile] = useState(false)
+  const [isMobile, setIsMobile] = useState(true)
 
   if (is_auth || password)
     return (

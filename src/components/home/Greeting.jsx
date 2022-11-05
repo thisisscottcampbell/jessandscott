@@ -4,6 +4,7 @@ import './home.css'
 const Greeting = ({ isMobile }) => {
   return (
     <div className="home__data">
+      {isMobile && <div className="home__img"></div>}
       <h1 className="home__title">8/19/2023</h1>
       {!isMobile && (
         <>

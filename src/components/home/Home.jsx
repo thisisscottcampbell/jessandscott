@@ -10,7 +10,7 @@ const Home = ({ isMobile }) => {
         <div className="home__content grid">
           <Social />
 
-          <div className="home__img"></div>
+          {!isMobile && <div className="home__img"></div>}
 
           <Greeting isMobile={isMobile} />
         </div>
