@@ -30,9 +30,9 @@ const About = () => {
         <div>
           <p className="about__description_description">
             <span className="bold">Pre-ception</span>: it should be noted that
-            no two pre-ceptions are the same, ours will be something like if
-            Thanksgiving were celebrated on the 4th of July at a far out,
-            boho-swanky joint, in Venice Beach in the 60s, that admits chillers
+            no two pre-ceptions are the same, ours will be something like this:
+            if Thanksgiving were celebrated on the 4th of July at a far out,
+            boho-swanky joint in Venice Beach, in the 60s, that admits chillers
             only and offers your favorite libations, outdoor seating, and sweet
             music.
           </p>
