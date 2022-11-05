@@ -110,7 +110,7 @@ const AboutUs = () => {
             title={`The Tom Cruise days, because, like, FIDLAR`}
             msg={`Staging the eventual denouement of a series of deliberate life decisions that, quite frankly, seemed to make insanely good sense at the time, Scott unknowingly opted to live out the
 						plot of an 80's cinematic gem starring Tom Cruise, dropping out of law school to bartend and
-						galavant about NYC. The next 7 years, or so, would wind about the country with little to recollect or prize--save some near and dear homies, love you guys!—-procuring an impovershed bank of evidence to possibly justify having done so. Nice 👌`}
+						galavant about NYC. The next 7 years, or so, would wind about the country leaving little to recollect or prize--save some near and dear homies, love you guys!—-procuring an impovershed bank of evidence to possibly justify having done so. Nice 👌`}
             date="2013 - 2020"
             isFirst={false}
             isScott={true}
