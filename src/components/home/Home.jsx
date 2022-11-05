@@ -20,7 +20,7 @@ const getDeviceType = () => {
 const Home = ({ setIsMobile }) => {
   const deviceType = getDeviceType()
   const isMobile = deviceType == 'mobile' ? true : false
-  setIsMobile(true)
+  setIsMobile(isMobile)
   return (
     <section className="home section" id="home">
       <div className="home__container container grid">
