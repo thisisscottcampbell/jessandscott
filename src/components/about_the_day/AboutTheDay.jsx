@@ -21,7 +21,7 @@ const About = () => {
           <h6 className="about__description_overview">
             So what are we doing? Well, we aren't getting married on this exact
             day, we are absconding off to Scotland a week later and eloping in
-            the Highlands (sorry, but not really). And so, for this day, we are
+            the Highlands (sorry, I guess). And so, for this day, we are
             celebrating our marriage-to-be with a "pre-ception" (i.e., a
             pre-wedding reception, a term coined by us for this day 😜)
           </h6>
@@ -33,7 +33,7 @@ const About = () => {
             no pre-ception is the same, ours will be something like if
             Thanksgiving were celebrated on the 4th of July at a far out
             boho-swanky joint in Venice Beach in the 60s that only allows
-            chillers to patron and offers your favorite libations, outdoor
+            chillers to patronize and offers your favorite libations, outdoor
             seating, and sweet music.
           </p>
           <p className="about__description_description">
