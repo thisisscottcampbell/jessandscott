@@ -385,7 +385,7 @@ const Details = () => {
                   </p>
                 </li>
 
-                <li className="services__modal-service">
+                {/* <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Guest Lodge, Dennis{' '}
@@ -415,7 +415,7 @@ const Details = () => {
                       <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
