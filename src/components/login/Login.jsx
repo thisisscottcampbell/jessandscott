@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const PASSWORD = {
-  VALID: 'a9b1c8d2e7f3g6h4g5',
+  VALID: '#preception',
 }
 
 const isValid = (password) => {

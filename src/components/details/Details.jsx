@@ -121,23 +121,32 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Car pool, car pool, car pool . Regardless of where you park,
-                    let no seat go butt-less.
+                    Car pool, car pool, car pool. Regardless of where you park,
+                    let no seat go butt-less
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    There's a parking lot near by (exact location to come) 🅿️
+                    There's a{' '}
+                    <a
+                      href="https://www.google.com/maps/dir/12+7th+Street,+Harwich,+MA/Park+%26+Ride,+Pleasant+Lake+Ave,+Harwich,+MA+02645/@41.7107171,-70.0829232,16z/am=t/data=!4m13!4m12!1m5!1m1!1s0x89fb3f8c916d7999:0x4c698d1cc8053267!2m2!1d-70.07613!2d41.716442!1m5!1m1!1s0x89fb3f9460a57f13:0xbba18133d094c6a5!2m2!1d-70.0768963!2d41.7048871"
+                      target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
+                    >
+                      parking lot{' '}
+                    </a>
+                    near by 🅿️
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    If you are staying over for the night, just Uber or Lyft,
-                    duh 🤯
+                    If you are staying over for the night, just Uber or Lyft 🤯
                   </p>
                 </li>
 
@@ -449,13 +458,14 @@ const Details = () => {
                 real. BUT, in the spirit of the event (and really, the future we
                 are embarking on), we want this to be a day where our worlds
                 come together in an authentic, honest, and meaningful way. And
-                so approaching the day communally, truly bringing everyone
-                together, seems like the perfect sort of ceremony. You don't
-                need to consult with us, or anyone, about what you are thinking
-                of bringing. We just ask that whatever you bring be something
-                you enjoy (food, drink, whatever) and would like to share with
+                so, approaching the day communally, bringing everyone together,
+                seems like the perfect sort of ceremony. You don't need to
+                consult with us, or anyone, about what you are thinking of
+                bringing. We just ask that whatever you bring be something you
+                enjoy (food, drink, whatever) and would like to share with
                 others. So bring what you can, if you can, but bring yourself
-                above all else. So many thanks in advance ❤️
+                above all else. So many thanks in advance for making this
+                possible ❤️
               </p>
             </div>
           </div>

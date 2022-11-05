@@ -62,7 +62,7 @@ const AboutUs = () => {
 
           <AboutUsCard
             title="A not so chill day"
-            msg="Scott develops arachnaphobia, though the memory remains blocked"
+            msg="Scott develops arachnaphobia 😳 though the memory remains blocked"
             date="unknown..."
             isFirst={false}
             isScott={true}
@@ -72,7 +72,7 @@ const AboutUs = () => {
           <AboutUsCard
             title="Perhaps the most unchill day of all"
             msg="Sweet Jessie exits the rink, hangs up the skates, and
-								officially retires from hockey; effectively vacating her
+								officially retires from hockey 😵 effectively vacating her
 								Olympic future, forgoing fame and glory and gold medals and endorsement deals
 								with Bauer, CCM, and who knowns, maybe even Origin"
             date="3/96"
@@ -83,9 +83,8 @@ const AboutUs = () => {
 
           <AboutUsCard
             title="Some forks, delays, and roundabouts"
-            msg={`Scott graduates from Sacred Heart Elementrary and kicks off a pattern of transience in which he'd attend 3 high schools, 3 colleges, and an additinal couple post-grad endeavors (solidifying a respectable
-                37.5 percent degree-per-academic-institude-attended success rate; all the while managing to earn spots on multiple winless teams at varying levels of competition)`}
-            date="2001-2014"
+            msg={`Scott graduates from Sacred Heart Elementrary and kicks off a pattern of transience in which he'd attend 3 high schools, 3 colleges, and a couple post-grad endeavors (solidifying a respectable 37.5 percent degree-per-academic-institute-attended success rate; all the while managing to earn spots on multiple winless teams at varying levels of competition)`}
+            date="2001-2013"
             isFirst={false}
             isScott={true}
             isJess={false}
@@ -95,12 +94,12 @@ const AboutUs = () => {
             title="A responsible progression from adolesence into early adulthood"
             msg={`Jess achieves a perfect school-attended to degree ratio (2:2),
                 also seamlessly doing so in the expected timeframe that able and
-                responsible individuals do; all the while earning the status
-                of captain in multiple team sports (at both the seconday and
+                responsible individuals do. What's more, she concurrently earned the status
+                of captain on multiple teams, in different sports (at both the seconday and
                 collegiate levels), on succesful, winning teams, similarly
                 earning awards and forms of recognition, "standout this" and "league
                 all star" that. Nothing really to write home about, but
-                something had to be written to encapsulate this time in her life`}
+                something had to be written to encapsulate this time in her life 🥱`}
             date="2001 - 2009"
             isFirst={false}
             isScott={false}
@@ -108,12 +107,11 @@ const AboutUs = () => {
           />
 
           <AboutUsCard
-            title={`The Tom Cruise days > Adulting; because, like, FIDLAR`}
-            msg={`Unknowingly, though still the result of a deliberate life decision that, frankly, seemed to make insanely good sense at the time, Scott opts to live out the
-						plot of an 80's movie starring Tom Cruise (to be fair, a pretty sweet movie at that), dropping out of law school to bartend and
-						galavant about NYC. The next 7 years, or so, wound
-						about the country with little to recollect or prize--save some near and dear homies, shout out!—-procuring an impovershed bank of evidence to possibly justifying having done so. Nice.`}
-            date="2014 - 2021"
+            title={`The Tom Cruise days, because, like, FIDLAR`}
+            msg={`Staging the eventual denouement of a series of deliberate life decisions that, quite frankly, seemed to make insanely good sense at the time, Scott unknowingly opted to live out the
+						plot of an 80's cinematic gem starring Tom Cruise, dropping out of law school to bartend and
+						galavant about NYC. The next 7 years, or so, would wind about the country with little to recollect or prize--save some near and dear homies, love you guys!—-procuring an impovershed bank of evidence to possibly justify having done so. Nice 👌`}
+            date="2013 - 2020"
             isFirst={false}
             isScott={true}
             isJess={false}
@@ -129,8 +127,7 @@ const AboutUs = () => {
 						as a role model for young, driven women (those like herself), progressing both personally and professionally handling any and
 						all duties ranging from trainer, marketing,
 						management, operations, liason, and likely a host of other
-						things the bozo writing this isn't able to call out. But,
-						basically, she kicked butt and handled bizzy.`}
+						things that the bozo writing this isn't able to call out. Basically, she kicked butt and handled bizzy 💪`}
             date="2009 - this is
 						ongoing"
             isFirst={false}
@@ -156,9 +153,9 @@ const AboutUs = () => {
 						his face, who, perhaps dealbreakingly, has tattoos, and, most
 						damning of all, never played hockey, doesn't know what icing is,
 						and irksomely insits that "power play" would be more
-						appropriately termed "power period". But heeding the counsel of
+						appropriately termed "power period". For all that, heeding the counsel of
 						some perspicacious friends and family, she obliged this poor sap
-						with some well founded skeptism, but no less open-minded for it`}
+						with some well founded skeptism 🤔 but no less open-minded for it`}
             date="7/2020"
             isFirst={false}
             isScott={false}
@@ -181,11 +178,11 @@ const AboutUs = () => {
 
           <AboutUsCard
             title="A question is posed"
-            msg="On the eve of her birthday, in Maine, she was gifted an empty music box
-						playing a song she'd never before heard (the accompanying explanation of which serving as a brief
+            msg="On the eve of her birthday, nearing dusk by a fire in Acadia, she was gifted an empty music box
+						playing a song she'd never before heard, the accompanying explanation of which served as a brief
 						diversion for a shakey man to get his wits about him and present
-						another gift), a ring bought a couple months prior, with a certain
-						promise attached to its acceptance"
+						another gift, a ring, bought a couple months prior, with a certain
+						promise attached to its acceptance 🤞"
             date="7/1/2022"
             isFirst={false}
             isScott={false}
@@ -194,7 +191,7 @@ const AboutUs = () => {
 
           <AboutUsCard
             title="The greatest win ever won"
-            msg="She said yes :)"
+            msg="She said yes 🥳"
             date="7/1/2022"
             isFirst={false}
             isScott={true}

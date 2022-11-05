@@ -11,8 +11,6 @@ const Contact = () => {
 
   const canSend = name.length > 0 && email.length > 0 && msg.length > 0
 
-  console.log('can send', canSend)
-
   const sendEmail = (e) => {
     e.preventDefault()
 
@@ -23,7 +21,11 @@ const Contact = () => {
       'F5055NXKzaR8LJOFc',
     )
 
-    window.alert('Message sent!')
+    window.alert('Message Sent!')
+
+    setName('')
+    setMsg('')
+    setEmail('')
     e.target.reset()
   }
 
