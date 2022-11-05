@@ -19,11 +19,11 @@ const App = () => {
   if (is_auth || password)
     return (
       <>
-        <Header />
+        <Header setIsMobile={setIsMobile} isMobile={isMobile} />
 
         <main className="main">
           {/**Greeting/Top of page */}
-          <Home />
+          <Home isMobile={isMobile} />
 
           {/* Our story */}
           <AboutUs />

@@ -3,7 +3,7 @@ import './home.css'
 import Social from './Social'
 import Greeting from './Greeting'
 
-const Home = () => {
+const Home = ({ isMobile }) => {
   return (
     <section className="home section" id="home">
       <div className="home__container container grid">
@@ -12,7 +12,7 @@ const Home = () => {
 
           <div className="home__img"></div>
 
-          <Greeting />
+          <Greeting isMobile={isMobile} />
         </div>
       </div>
     </section>
