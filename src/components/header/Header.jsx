@@ -45,7 +45,7 @@ const Header = () => {
                 onMouseEnter={(e) => (e.target.style.color = 'coral')}
                 onMouseLeave={(e) => (e.target.style.color = 'black')}
               >
-                <i className="uil uil-user nav__icon"></i> About The Day
+                <i className="uil uil-sun nav__icon"></i> About The Day
               </a>
             </li>
 
@@ -61,7 +61,7 @@ const Header = () => {
                 onMouseEnter={(e) => (e.target.style.color = 'coral')}
                 onMouseLeave={(e) => (e.target.style.color = 'black')}
               >
-                <i className="uil uil-briefcase-alt nav__icon"></i> Details
+                <i className="uil uil-info-circle nav__icon"></i> Details
               </a>
             </li>
 
