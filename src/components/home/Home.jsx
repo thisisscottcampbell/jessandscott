@@ -3,20 +3,21 @@ import './home.css'
 import Social from './Social'
 import Greeting from './Greeting'
 
-const Home = () => {
-  const getDeviceType = () => {
-    const ua = navigator.userAgent
-    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
-      return 'tablet'
-    } else if (
-      /Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
-        ua,
-      )
-    ) {
-      return 'mobile'
-    }
-    return 'desktop'
+const getDeviceType = () => {
+  const ua = navigator.userAgent
+  if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+    return 'tablet'
+  } else if (
+    /Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
+      ua,
+    )
+  ) {
+    return 'mobile'
   }
+  return 'desktop'
+}
+
+const Home = () => {
   const deviceType = getDeviceType()
   const isMobile = deviceType == 'mobile' ? true : false
   return (

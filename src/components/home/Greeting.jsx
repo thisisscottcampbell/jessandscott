@@ -14,11 +14,11 @@ const Greeting = ({ isMobile }) => {
           <p className="home__description">
             Only not on this particular day. But soon thereafter.
           </p>
+          <h3 className="home__subtitle">
+            And we want to celebrate with you 🤘
+          </h3>
         </>
       )}
-      <h3 className="home__subtitle">
-        {isMobile ? '' : 'And'} we want to celebrate with you 🤘
-      </h3>
     </div>
   )
 }
