@@ -95,9 +95,9 @@ const AboutUs = () => {
             msg={`Jess achieves a perfect school-attended to degree ratio (2:2),
                 also seamlessly doing so in the expected timeframe that able and
                 responsible individuals do. What's more, she concurrently earned the status
-                of captain on multiple teams, in different sports (at both the seconday and
-                collegiate levels), on succesful, winning teams, similarly
-                earning awards and forms of recognition, "standout this" and "league
+                of Captain on multiple teams, in multiple sports (at both the seconday and
+                collegiate levels). Not coincidentally, on succesful, winning teams, similarly
+                earning awards and recognitions, "standout this" and "league
                 all star" that. Nothing really to write home about, but
                 something had to be written to encapsulate this time in her life 🥱`}
             date="2001 - 2009"
