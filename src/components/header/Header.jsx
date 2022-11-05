@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './header.css'
 
-const Header = ({ setIsMobile, isMobile }) => {
+const Header = ({ isMobile }) => {
   /*=============== Change Background Header ===============*/
   window.addEventListener('scroll', function () {
     const header = document.querySelector('.header')
@@ -16,7 +16,7 @@ const Header = ({ setIsMobile, isMobile }) => {
 
   return (
     <header className="header">
-      <nav className="nav container">
+      <nav className={isMobile ? 'nav_mobile container' : 'nav container'}>
         <p className="nav__logo">Jess & Scott</p>
 
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
