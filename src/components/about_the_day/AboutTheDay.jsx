@@ -35,8 +35,8 @@ const About = () => {
             offers your favorite libations, outdoor seating, and sweet music.
           </p>
           <p className="about__description_description">
-            In the Thanksgiving spirit, we'd like to make the day something of a
-            pot luck. To be sure,{' '}
+            In the Thanksgiving spirit, we'd like to make the day a pot luck. To
+            be sure,{' '}
             <span className="bold">no one is expected to bring anything</span> ,
             but if you have some beer you particularly like, or wine, or maybe
             some craft soda or something, bring some and share. If you have a
@@ -50,13 +50,14 @@ const About = () => {
           <p className="about__description_description">
             So, what does one wear to a pre-ception? A suit? A dress? Fancy
             shoes that give you blisters? Nothing at all? Well, you should for
-            sure wear something but, truthfully, wear whatever you want. Dress
-            as yourself. We just want you to come and be you. Not some
-            overheated and uncomfortably festooned version of you (remember, we
-            are talking mid-August). If you need inspo, imagine you are going on
-            a first date with someone way cooler than you, but you don't want
-            them to know, at least not just yet, so you do the nonchallantly
-            cool thing and keep it light, casual, and breezy.
+            sure wear something but, truthfully, wear whatever you want.{' '}
+            <span style={{ fontStyle: 'italic' }}>Dress as yourself</span>. We
+            want you to be you. Not an overheated, uncomfortably festooned
+            version of you (remember, we are talking mid-August). If you need
+            inspo, imagine you are going on a first date with someone way cooler
+            than you, but you absolutely cannot let them know, at least not just
+            yet, so you do the nonchallantly cool thing and keep it light,
+            casual, and breezy.
           </p>
         </div>
       </div>

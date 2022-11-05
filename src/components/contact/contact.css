@@ -12,6 +12,13 @@
   margin-bottom: var(--mb-1-5);
 }
 
+.services__icon {
+  /* display: block; */
+  font-size: 2rem;
+  color: black;
+  /* margin-bottom: var(--mb-1); */
+}
+
 .contact__info {
   display: grid;
   row-gap: 1rem;

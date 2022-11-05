@@ -1,9 +1,17 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import './contact.css'
 
 const Contact = () => {
   const form = useRef()
+
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [msg, setMsg] = useState('')
+
+  const canSend = name.length > 0 && email.length > 0 && msg.length > 0
+
+  console.log('can send', canSend)
 
   const sendEmail = (e) => {
     e.preventDefault()
@@ -64,6 +72,8 @@ const Contact = () => {
                   name="name"
                   className="contact__form-input"
                   placeholder="Your name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                 />
               </div>
 
@@ -74,6 +84,8 @@ const Contact = () => {
                   name="email"
                   className="contact__form-input"
                   placeholder="Your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
 
@@ -87,6 +99,8 @@ const Contact = () => {
                   rows="10"
                   className="contact__form-input"
                   placeholder="What's on your mind?"
+                  value={msg}
+                  onChange={(e) => setMsg(e.target.value)}
                 ></textarea>
               </div>
             </div>
@@ -98,11 +112,13 @@ const Contact = () => {
                   padding: '0.5rem',
                   borderRadius: '10px',
                   border: '0.25px solid lightGrey',
+                  color: !canSend && 'lightGrey',
                 }}
                 onMouseEnter={(e) => (e.target.style.color = 'coral')}
                 onMouseLeave={(e) => (e.target.style.color = 'black')}
+                disabled={canSend ? false : true}
               >
-                Send Message
+                send message
               </button>
             </div>
           </div>

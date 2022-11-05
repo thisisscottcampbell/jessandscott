@@ -125,8 +125,8 @@ const AboutUs = () => {
 						inevitabiltiy of hard work, long hours, and all that
 						accompanies, Jess, wisely, with poise, patience, grace, and
 						maturity, embarked on a career that would scale in commensurable
-						measure to her talents, aptitude, and hustle, serving uniquely
-						as a role model to young, driven women (those like herself), progressing both personally and professionally handling any and
+						measure to her talents, aptitude, and hustle, uniquely serving
+						as a role model for young, driven women (those like herself), progressing both personally and professionally handling any and
 						all duties ranging from trainer, marketing,
 						management, operations, liason, and likely a host of other
 						things the bozo writing this isn't able to call out. But,

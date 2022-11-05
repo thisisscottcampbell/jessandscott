@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './services.css'
+import './details.css'
 
 const Details = () => {
   const [toggleState, setToggleState] = useState(0)
@@ -62,8 +62,10 @@ const Details = () => {
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <p className="services__modal-info">
-                    This is a private residence, so be careful not to share the
-                    location 🤫
+                    This is a private residence, home to some{' '}
+                    <span style={{ fontStyle: 'italic' }}>highly</span>{' '}
+                    recognizable golden retrievers, so be careful not to share
+                    the location 🤫
                   </p>
                 </li>
                 <li className="services_modal-service">
@@ -110,16 +112,16 @@ const Details = () => {
               <h3 className="services__modal-title">To and from</h3>
               <p className="services__modal-description">
                 Since this is all going down at a home, on site parking really
-                isn't a thing we can rely on. But, fret not, it's all good. If
+                isn't a viable option for all. But, fret not, it's all good. If
                 ambiguity stresses you out, or you have a need for convenience,
-                just reach out and we can coordinate.
+                just reach out and we can coordinate
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Car pool, car pool, car pool. Regardless of where you park,
+                    Car pool, car pool, car pool . Regardless of where you park,
                     let no seat go butt-less.
                   </p>
                 </li>
@@ -127,7 +129,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    That parking lot near by 🅿️
+                    There's a parking lot near by (exact location to come) 🅿️
                   </p>
                 </li>
 
@@ -142,7 +144,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Also, if you know someone staying over for the night, park
+                    Also, if you know someone posting up for the night, park
                     where they are staying and make your way from there
                   </p>
                 </li>
@@ -188,27 +190,36 @@ const Details = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">
-                Some potential options...
-              </h3>
+              <h3 className="services__modal-title">Some potential options</h3>
               <p className="services__modal-description">
-                Word to the wise, it will be summer in the Cape so stuff will
-                fill up fast—so sooner than later means more options than not,
-                fwiw
+                Word to the wise: it will be summer in the Cape so 1. stuff will
+                fill up fast--so sooner than later means more options than not,
+                and 2. after the new year, some of the listings below
+                instantiate two night minimum stays. Don't sleep 😴 and get beat
+                by their swindlings 🤬!
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Air BnB, assemble your squad and divy up the space ⭐️
+                    <a
+                      href="https://www.airbnb.com/a/stays?c=.pi0.pk36239956_25650614176&ghost=true&gclid=Cj0KCQjwk5ibBhDqARIsACzmgLR6wO4xxO1ptqURpZru_V4GI-TK7KrNAQw9ZodwoC8Iu8ebbkazqV0aAiUDEALw_wcB"
+                      target="_blank"
+                      style={{ color: 'steelblue' }}
+                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
+                    >
+                      Air BnB
+                    </a>
+                    , assemble your squad and divy up the space ⭐️
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Chatham Motel:{' '}
+                    Chatham Motel{' '}
                     <a
                       href="https://chathammotel.com"
                       target="_blank"
@@ -216,7 +227,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
@@ -224,7 +235,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Ambassador Inn & Suites:{' '}
+                    Ambassador Inn & Suites{' '}
                     <a
                       href="https://www.guestreservations.com/ambassador-inn-suites-south-yarmouth/booking"
                       target="_blank"
@@ -232,7 +243,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
@@ -240,7 +251,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Ocean Side Motel:{' '}
+                    Ocean Side Motel{' '}
                     <a
                       href="http://osmotel.com/"
                       target="_blank"
@@ -248,7 +259,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
@@ -256,7 +267,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Aiden By Best Western at Cape Point:{' '}
+                    Aiden By Best Western at Cape Point{' '}
                     <a
                       href="https://www.bestwestern.com/en_US/book/west-yarmouth/hotel-rooms/aiden-by-best-western-cape-point/propertyCode.22070.html"
                       target="_blank"
@@ -264,7 +275,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
@@ -272,7 +283,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    All Seasons Resort, Yarmouth:{' '}
+                    All Seasons Resort, Yarmouth{' '}
                     <a
                       href="https://www.allseasons.com/?gclid=CjwKCAjw8JKbBhBYEiwAs3sxN99oAgV7dH33i2szGVNYbCsGQfiSupwXGVM34PBZB4Za709_c1o4XBoCLK8QAvD_BwE"
                       target="_blank"
@@ -280,7 +291,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
@@ -288,7 +299,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Holiday Hill Inn:{' '}
+                    Holiday Hill Inn{' '}
                     <a
                       href="http://www.holidayhillinnandsuites.com/"
                       target="_blank"
@@ -296,7 +307,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
@@ -304,7 +315,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Jonathan Edwards Motel:{' '}
+                    Jonathan Edwards Motel{' '}
                     <a
                       href="https://www.reservations.com/hotel/jonathan-edwards-motel?rmcid=tophotels4&utm_source=googleads&gclid=CjwKCAjw8JKbBhBYEiwAs3sxN8kMx94UO0g2BySyQ4LA_rt9TNmpN9Bv8Oi4sgaZxJaPqJViztpgvhoCFagQAvD_BwE"
                       target="_blank"
@@ -312,7 +323,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
@@ -320,7 +331,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Tide Water Inn:{' '}
+                    Tide Water Inn{' '}
                     <a
                       href="https://www.tidewatercapecod.com/"
                       target="_blank"
@@ -328,7 +339,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
@@ -336,7 +347,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Comfort Inn Hyannis:{' '}
+                    Comfort Inn Hyannis{' '}
                     <a
                       href="https://www.choicehotels.com/massachusetts/hyannis/comfort-inn-hotels/ma217?mc=llgoxxpx"
                       target="_blank"
@@ -344,7 +355,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
@@ -352,7 +363,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Travel Lodge, Dennis:{' '}
+                    Travel Lodge, Dennis{' '}
                     <a
                       href="https://www.wyndhamhotels.com/travelodge/west-dennis-massachusetts/travelodge-cape-cod-area/overview?CID=LC:TL::GGL:RIO:National:11835&iata=00093796"
                       target="_blank"
@@ -360,7 +371,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
@@ -368,7 +379,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Guest Lodge, Dennis:{' '}
+                    Guest Lodge, Dennis{' '}
                     <a
                       href="https://www.guestlodge.net/"
                       target="_blank"
@@ -376,7 +387,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
@@ -384,7 +395,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Hampton Inn and Suites, West Yarmouth:{' '}
+                    Hampton Inn and Suites, West Yarmouth{' '}
                     <a
                       href="https://www.hilton.com/en/hotels/hyncchx-hampton-suites-cape-cod-west-yarmouth/?SEO_id=GMB-AMER-XS-HYNCCHX&y_source=1_MjA4NTM2NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
                       target="_blank"
@@ -392,7 +403,7 @@ const Details = () => {
                       onMouseEnter={(e) => (e.target.style.color = 'coral')}
                       onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
                     >
-                      take me there
+                      <i className="uil uil-external-link-alt"></i>
                     </a>
                   </p>
                 </li>
