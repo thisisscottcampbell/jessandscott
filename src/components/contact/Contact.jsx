@@ -114,10 +114,8 @@ const Contact = () => {
                   padding: '0.5rem',
                   borderRadius: '10px',
                   border: '0.25px solid lightGrey',
-                  color: !canSend && 'lightGrey',
+                  color: !canSend ? 'lightGrey' : 'steelBlue',
                 }}
-                onMouseEnter={(e) => (e.target.style.color = 'coral')}
-                onMouseLeave={(e) => (e.target.style.color = 'black')}
                 disabled={canSend ? false : true}
               >
                 send message

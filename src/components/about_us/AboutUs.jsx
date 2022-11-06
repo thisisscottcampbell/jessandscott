@@ -62,7 +62,7 @@ const AboutUs = () => {
 
           <AboutUsCard
             title="A not so chill day"
-            msg="Scott develops arachnaphobia 😳 though the memory remains blocked"
+            msg="Scott develops arachnaphobia 🕷 though the memory remains blocked"
             date="unknown..."
             isFirst={false}
             isScott={true}

@@ -45,8 +45,8 @@ const About = () => {
             have a dish or party snack you like to make, please do whip up a
             batch. More than anything, we want this to be a day where all the
             people we love get to meet each other, come together, share stories
-            and laughs and, of course, enjoy themselves. And so any and all
-            communal provisioning would be way more than appreciated as a way to
+            and laughs and, of course, enjoy themselves. So any and all communal
+            provisioning would be way more than appreciated as a way to
             contribute, share, and take part in our celebration.
           </p>
           <p className="about__description_description">
@@ -56,9 +56,10 @@ const About = () => {
                 requirements
               </span>
             </span>
-            : So, what does one wear to a pre-ception? A suit? A dress? Fancy
-            shoes that give you blisters? Nothing at all? Well, you should for
-            sure wear something but, truthfully, wear whatever you want. <br />
+            : What exactly does one wear to a pre-ception, you ask? A suit? A
+            dress? Fancy shoes that give you blisters? Nothing at all? Well, you
+            should for sure wear something but, truthfully, wear whatever you
+            want. <br />
             <p
               style={{
                 fontStyle: 'italic',

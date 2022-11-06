@@ -6,7 +6,7 @@ const Greeting = ({ isMobile }) => {
     <div className="home__data">
       {isMobile && <div className="home__img"></div>}
       <h1 className="home__title">8/19/2023</h1>
-      {isMobile && <p>we're getting married (soon thereafter)</p>}
+      {isMobile && <p>🎉 we're getting married (well, soon thereafter) 🎉</p>}
       {isMobile && <h5>I'll explain below...</h5>}
       {!isMobile && (
         <>
