@@ -115,10 +115,11 @@ const Contact = () => {
                   borderRadius: '10px',
                   border: '0.25px solid lightGrey',
                   color: !canSend ? 'lightGrey' : 'steelBlue',
+                  cursor: !canSend ? 'not-allowed' : 'pointer',
                 }}
                 disabled={canSend ? false : true}
               >
-                send message
+                {canSend ? 'send message' : 'fill out form'}
               </button>
             </div>
           </div>
