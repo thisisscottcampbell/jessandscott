@@ -20,10 +20,10 @@ const About = () => {
           </h5>
           <h6 className="about__description_overview">
             So what are we doing? Well, we aren't getting married on this exact
-            day, we are absconding off to Scotland a week later and eloping in
-            the Highlands (sorry, I guess). And so, for this day, we are
-            celebrating our marriage-to-be with a "pre-ception" (i.e., a
-            pre-wedding reception, a term coined by us for this day 😜)
+            day, we are absconding to Scotland a week later and eloping in the
+            Highlands (sorry, I guess). And so, for this day, we are celebrating
+            our marriage-to-be with a "pre-ception" (i.e., a pre-wedding
+            reception, a term coined by us for this day 😜)
           </h6>
         </div>
 
@@ -38,16 +38,16 @@ const About = () => {
           </p>
           <p className="about__description_description">
             In the spirit of Thanksgiving (community, family, etc), we'd like to
-            make the day a pot luck. To be sure,{' '}
+            make the day a potluck. To be sure,{' '}
             <span className="bold">no one is expected to bring anything</span> ,
             but if you have some beer you particularly like, or wine, an elixir,
-            or maybe some craft soda or something, bring some and share. If you
-            have a dish or party snack you like to make, please do whip up a
-            batch. More than anything, we want this to be a day where all the
-            people we love get to meet each other, come together, share stories
-            and laughs and, of course, enjoy themselves. So any and all communal
-            provisioning would be way more than appreciated as a way to
-            contribute, share, and take part in our celebration.
+            or maybe 10,000 pH water, bring some and share. If you have a dish
+            or party snack you like to make, go on and whip up a batch. More
+            than anything, we want this to be a day where all the people we love
+            get to meet each other, come together, share stories and laughs and,
+            of course, enjoy themselves. So any and all communal provisioning
+            would be way more than appreciated as a way to contribute, share,
+            and take part in our celebration.
           </p>
           <p className="about__description_description">
             <span className="bold">
@@ -70,12 +70,12 @@ const About = () => {
               Dress as yourself
             </p>
             We want you to be you. Not an overheated, uncomfortably festooned
-            version of you (remember, we are talking mid-August). If you need
-            inspo, imagine you are going on a first date with someone way cooler
-            than you but your relative lameness mustn't be exposed, at least not
-            just yet, so you use the only move avaible to you and go for that
-            nonchallant-cool vibe, like, "I sorta, kinda care, but not really,"
-            keeping it light, casual, and breezy.
+            version of you (remember, we are talking a cookout in mid-August).
+            If you need inspo, imagine you are going on a first date with
+            someone way cooler than you but your relative lameness mustn't be
+            exposed, at least not just yet, so you use the only move avaible to
+            you and go for that nonchallant-cool vibe, like, "I sorta, kinda
+            care, but not really," keeping it light, casual, and breezy.
           </p>
         </div>
       </div>
