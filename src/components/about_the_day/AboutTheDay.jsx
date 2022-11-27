@@ -30,11 +30,14 @@ const About = () => {
         <div>
           <p className="about__description_description">
             <span className="bold">Pre-ception</span>: it should be noted that
-            no two pre-ceptions are the same, ours will be something like this:
-            if Thanksgiving were celebrated on the 4th of July at a far out,
+            no two pre-ceptions are the same. Some are all ages, open to the
+            public, with tickets available at the gate, others are invite only
+            and 21+, it really depends. Our attendance guidlines will fall under
+            the latter category and the vibe will go something like this: if
+            Thanksgiving were celebrated on the 4th of July at a far out,
             boho-swanky joint in Venice Beach, in the 60s, that admits chillers
             only and offers your favorite libations, outdoor seating, and sweet
-            music.
+            music
           </p>
           <p className="about__description_description">
             In the spirit of Thanksgiving (community, family, etc), we'd like to
@@ -47,7 +50,7 @@ const About = () => {
             get to meet each other, come together, share stories and laughs and,
             of course, enjoy themselves. So any and all communal provisioning
             would be way more than appreciated as a way to contribute, share,
-            and take part in our celebration.
+            and take part in our celebration
           </p>
           <p className="about__description_description">
             <span className="bold">
