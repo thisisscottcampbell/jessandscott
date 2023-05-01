@@ -31,11 +31,11 @@ const About = () => {
           <p className="about__description_description">
             <span className="bold">Pre-ception</span>: it should be noted that
             no two pre-ceptions are the same. Some are all ages and open to the
-            public with tickets available at the gate, others are invite only
+            public with tickets available at the gate; others are invite only
             with strictly enforced amusement park standards ("you must be as
-            tall as this line to ride this ride") and a
-            legally-allowed-to-act-a-fool age requirement of 21+, it really
-            depends. Our attendance guidelines will fall under the latter
+            tall as this line to ride this ride"); alternatively, some align
+            standards with legally-allowed-to-act-a-fool age protocols, it
+            really depends. Our attendance guidelines will fall under the third
             category and the vibe will go something like this: if Thanksgiving
             were celebrated on the 4th of July at a far out, boho-swanky joint
             in Venice Beach, in the 60s, that admits chillers only and offers
