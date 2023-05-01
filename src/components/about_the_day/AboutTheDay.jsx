@@ -34,7 +34,7 @@ const About = () => {
             public with tickets available at the gate; others are invite only
             with strictly enforced amusement park standards ("you must be as
             tall as this line to ride this ride"); alternatively, some align
-            standards with legally-allowed-to-act-a-fool age protocols, it
+            standards with legally-allowed-to-act-a-fool age requirements, it
             really depends. Our attendance guidelines will fall under the third
             category and the vibe will go something like this: if Thanksgiving
             were celebrated on the 4th of July at a far out, boho-swanky joint
