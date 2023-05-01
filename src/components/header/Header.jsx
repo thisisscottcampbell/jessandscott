@@ -84,12 +84,27 @@ const Header = ({ isMobile }) => {
             <li className="nav__item">
               <a
                 className="nav__link"
-                style={{ color: 'darkgray' }}
-                // onMouseEnter={(e) => (e.target.style.color = 'coral')}
-                // onMouseLeave={(e) => (e.target.style.color = 'black')}
+                href="https://www.zola.com/registry/thecampbellswed"
+                target="_blank"
+                style={{ color: '#6379E6' }}
+                onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                onMouseLeave={(e) => (e.target.style.color = '#6379E6')}
               >
-                <i className="uil uil-file-alt nav__icon"></i> Registry coming
-                soon...
+                <i className="uil uil-file-alt nav__icon"></i>
+                Zola
+              </a>
+            </li>
+            <li className="nav__item">
+              <a
+                className="nav__link"
+                href="https://www.anthropologie.com/registry/listing?registryId=7CB822BC3A73"
+                target="_blank"
+                style={{ color: '#6379E6' }}
+                onMouseEnter={(e) => (e.target.style.color = 'coral')}
+                onMouseLeave={(e) => (e.target.style.color = '#6379E6')}
+              >
+                <i className="uil uil-file-alt nav__icon"></i>
+                Anthropologie
               </a>
             </li>
           </ul>
