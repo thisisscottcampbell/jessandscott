@@ -77,7 +77,7 @@ const Header = ({ isMobile }) => {
                 onMouseEnter={(e) => (e.target.style.color = 'coral')}
                 onMouseLeave={(e) => (e.target.style.color = 'black')}
               >
-                <i className="uil uil-message nav__icon"></i> RSVP
+                <i className="uil uil-message nav__icon"></i> Holler
               </a>
             </li>
 

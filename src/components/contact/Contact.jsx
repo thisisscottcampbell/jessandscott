@@ -53,8 +53,8 @@ const Contact = () => {
             marginRight: '1rem',
           }}
         >
-          <h2>RSVP</h2>
-          <p>holler</p>
+          <h2>Holler</h2>
+          <p>get in touch</p>
         </div>
 
         {/** FORM CONTAINER */}
@@ -93,7 +93,7 @@ const Contact = () => {
 
               <div className="contact__form-div contact__form-area">
                 <label className="contact__form-tag">
-                  RSVP / questions / concerns
+                  thoughts / questions / concerns
                 </label>
                 <textarea
                   name="project"
