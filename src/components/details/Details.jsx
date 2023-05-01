@@ -454,18 +454,21 @@ const Details = () => {
                 Bring something and try everything 😋
               </h3>
               <p className="services__modal-description">
-                Just to reiterate. No one is expected to bring anything. For
-                real. BUT, in the spirit of the event (and really, the future we
-                are embarking on), we want this to be a day where our worlds
-                come together in an authentic, honest, and meaningful way. And
-                so, approaching the day communally, bringing everyone together,
-                seems like the perfect sort of ceremony. You don't need to
-                consult with us, or anyone, about what you are thinking of
-                bringing. We just ask that whatever you bring be something you
-                enjoy (food, drink, whatever) and would like to share with
-                others. So bring what you can, if you can, but bring yourself
-                above all else. So many thanks in advance for making this
-                possible ❤️
+                Just to reiterate:{' '}
+                <span className="bold">
+                  no one is expected to bring anything
+                </span>
+                . <div>For real.</div> BUT, in the spirit of the event (and
+                really, the future we are embarking on), we want this to be a
+                day where our worlds come together in an authentic, honest, and
+                meaningful way. And so, approaching the day communally, bringing
+                everyone together, seems like the perfect sort of ceremony. You
+                don't need to consult with us, or anyone, about what you are
+                thinking of bringing. We just ask that whatever you bring be
+                something you enjoy (food, drink, whatever) and would like to
+                share with others. So bring what you can, if you can, but bring
+                yourself above all else. So many thanks in advance for making
+                this possible ❤️
               </p>
             </div>
           </div>

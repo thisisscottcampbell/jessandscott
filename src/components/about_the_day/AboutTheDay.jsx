@@ -44,15 +44,17 @@ const About = () => {
           <p className="about__description_description">
             In the spirit of Thanksgiving (community, family, etc), we'd like to
             make the day a potluck. To be sure,{' '}
-            <span className="bold">no one is expected to bring anything</span> ,
-            but if you have some beer you particularly like, or wine, an elixir,
-            or maybe 10,000 pH water, bring some and share. If you have a dish
-            or party snack you like to make, go on and whip up a batch. More
-            than anything, we want this to be a day where all the people we love
-            get to meet each other, come together, share stories and laughs and,
-            of course, enjoy themselves. So any and all communal provisioning
-            would be way more than appreciated as a way to contribute, share,
-            and take part in our celebration
+            <span className="bold">
+              no one is expected to bring anything, food will be provided
+            </span>{' '}
+            , but if you have some beer you particularly like, or wine, an
+            elixir, or maybe 10,000 pH water, bring some and share. If you have
+            a small dish or party snack you like to make, go on and whip up a
+            batch. More than anything, we want this to be a day where all the
+            people we love get to meet each other, come together, share stories
+            and laughs and, of course, enjoy themselves. So any and all communal
+            provisioning would be way more than appreciated as a way to
+            contribute, share, and take part in our celebration
           </p>
           <p className="about__description_description">
             <span className="bold">
