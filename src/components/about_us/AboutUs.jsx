@@ -136,7 +136,7 @@ const AboutUs = () => {
           />
 
           <AboutUsCard
-            title="That time Covid happened and the world stopped for awhile"
+            title={`And then the spicy cough stopped the world for awhile`}
             msg={`After some time in the rain in the Pacific Northwest enjoying
 						things like donuts, coffee, and coastal trips to see Puffins, now shelving books for a living, Scott moved back to
 						Weymouth with a very cool cat and something like 30 extra pounds, conservatively. Gut circumference aside, he would, only a few days upon returning, find himself in Jessica's company thanks to a gang of fools who let him tag along to the beach that day--shout out to those foolios!`}
