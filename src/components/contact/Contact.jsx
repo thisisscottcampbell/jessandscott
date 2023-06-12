@@ -53,8 +53,8 @@ const Contact = () => {
             marginRight: '1rem',
           }}
         >
-          <h2>Holler</h2>
-          <p>get in touch</p>
+          <h2>RSVP</h2>
+          <p>are you in? are you out?</p>
         </div>
 
         {/** FORM CONTAINER */}
@@ -93,14 +93,14 @@ const Contact = () => {
 
               <div className="contact__form-div contact__form-area">
                 <label className="contact__form-tag">
-                  thoughts / questions / concerns
+                  Your plans for Aug 19th
                 </label>
                 <textarea
                   name="project"
                   cols="30"
                   rows="10"
                   className="contact__form-input"
-                  placeholder="What's on your mind?"
+                  placeholder="Let us know!"
                   value={msg}
                   onChange={(e) => setMsg(e.target.value)}
                 ></textarea>

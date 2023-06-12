@@ -14,9 +14,9 @@ const About = () => {
         <div>
           <h5 className="about__description_overview">
             First and foremost, if you are reading this, we{' '}
-            <span style={{ fontStyle: 'italic' }}>really really </span> hope you
-            can come celebrate with us because we love you and think you totally
-            rock
+            <span style={{ fontStyle: 'italicize' }}>really really </span> hope
+            you can come celebrate with us because we love you and think you
+            totally rock
           </h5>
           <h6 className="about__description_overview">
             So what are we doing? Well, we aren't getting married on this exact
@@ -42,8 +42,12 @@ const About = () => {
             your favorite libations, outdoor seating, and sweet music
           </p>
           <p className="about__description_description">
-            In the spirit of Thanksgiving (community, family, etc), we'd like to
-            make the day a potluck. To be sure,{' '}
+            It being a summer backyard bbq and all, we'd like to make the day an
+            optional—
+            <span>
+              <em>totally optional</em>
+            </span>
+            —potluck. To be sure,{' '}
             <span className="bold">
               no one is expected to bring anything, food will be provided
             </span>{' '}
@@ -52,9 +56,7 @@ const About = () => {
             a small dish or party snack you like to make, go on and whip up a
             batch. More than anything, we want this to be a day where all the
             people we love get to meet each other, come together, share stories
-            and laughs and, of course, enjoy themselves. So any and all communal
-            provisioning would be way more than appreciated as a way to
-            contribute, share, and take part in our celebration
+            and laughs and, of course, enjoy themselves.
           </p>
           <p className="about__description_description">
             <span className="bold">

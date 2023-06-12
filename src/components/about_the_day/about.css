@@ -16,6 +16,11 @@
   font-weight: var(--font-semi-bold);
 }
 
+.italicize {
+  font-size: var(--normal-font-size);
+  font-style: var(--normal-font-italicize);
+}
+
 .about__description_description {
   margin-bottom: var(--mb-2-5);
   font-size: var(--smaller-font-size);

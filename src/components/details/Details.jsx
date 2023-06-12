@@ -1,6 +1,24 @@
 import React, { useState } from 'react'
 import './details.css'
 
+const TIMES = [
+  { time: '3pm', desc: 'Arrive 🛬' },
+  { time: '4pm', desc: 'Grub 🍔 🍗' },
+  { time: '6pm', desc: 'Live tunes 🎹 🎸 🥁' },
+  { time: '7:30pm', desc: 'Intermish for dessert 🍪 🍰' },
+  { time: '9pm', desc: 'Dance, chill, enjoy 💃 😶‍🌫️ 🍻' },
+  { time: '11pm', desc: 'Last shuttle...  ✌️ ❤️ ✌️' },
+]
+
+const Item = ({ time, desc }) => (
+  <li className="services__modal-service">
+    <i className="uil uil-angle-double-right services__modal-icon"></i>
+    <p className="services__modal-info">
+      <span style={{ fontWeight: 'bold' }}>{time}</span>: {desc}
+    </p>
+  </li>
+)
+
 const Details = () => {
   const [toggleState, setToggleState] = useState(0)
 
@@ -161,8 +179,9 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    We are working on setting up some sort of shuttle as well,
-                    more to come on that... 🚙
+                    There will be a shuttle to and from the parking lot. It'll
+                    run between 8pm and closing time, and 230pm - 330pm, as
+                    well. In between, it can fly you spontaneously 🚙
                   </p>
                 </li>
               </ul>
@@ -384,38 +403,6 @@ const Details = () => {
                     </a>
                   </p>
                 </li>
-
-                {/* <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Guest Lodge, Dennis{' '}
-                    <a
-                      href="https://www.guestlodge.net/"
-                      target="_blank"
-                      style={{ color: 'steelblue' }}
-                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
-                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
-                    >
-                      <i className="uil uil-external-link-alt"></i>
-                    </a>
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Hampton Inn and Suites, West Yarmouth{' '}
-                    <a
-                      href="https://www.hilton.com/en/hotels/hyncchx-hampton-suites-cape-cod-west-yarmouth/?SEO_id=GMB-AMER-XS-HYNCCHX&y_source=1_MjA4NTM2NC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
-                      target="_blank"
-                      style={{ color: 'steelblue' }}
-                      onMouseEnter={(e) => (e.target.style.color = 'coral')}
-                      onMouseLeave={(e) => (e.target.style.color = 'steelblue')}
-                    >
-                      <i className="uil uil-external-link-alt"></i>
-                    </a>
-                  </p>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -423,13 +410,13 @@ const Details = () => {
 
         {/***
          *
-         * POTLUCK
+         * The Agenda
          *
          */}
         <div className="services__content">
           <div>
-            <i className="uil uil-pizza-slice services__icon"></i>
-            <h3 className="services__title">Potluck dealio</h3>
+            <i className="uil uil-clock-three services__icon"></i>
+            <h3 className="services__title">The Agenda</h3>
           </div>
 
           <span onClick={() => toggleTab(4)} className="services__button">
@@ -451,24 +438,19 @@ const Details = () => {
               ></i>
 
               <h3 className="services__modal-title">
-                Bring something and try everything 😋
+                An itinerary for the day
               </h3>
               <p className="services__modal-description">
-                Just to reiterate:{' '}
-                <span className="bold">
-                  no one is expected to bring anything
-                </span>
-                . <div>For real.</div> BUT, in the spirit of the event (and
-                really, the future we are embarking on), we want this to be a
-                day where our worlds come together in an authentic, honest, and
-                meaningful way. And so, approaching the day communally, bringing
-                everyone together, seems like the perfect sort of ceremony. You
-                don't need to consult with us, or anyone, about what you are
-                thinking of bringing. We just ask that whatever you bring be
-                something you enjoy (food, drink, whatever) and would like to
-                share with others. So bring what you can, if you can, but bring
-                yourself above all else. So many thanks in advance for making
-                this possible ❤️
+                Just a timeline to ensure your punctual arrival (or not,
+                depending on your style), and timely departure (or not,
+                depending on your manners).
+                <div></div>
+                <br />
+                <ul className="services__modal-services grid">
+                  {TIMES.map(({ time, desc }) => (
+                    <Item time={time} desc={desc} />
+                  ))}
+                </ul>
               </p>
             </div>
           </div>
