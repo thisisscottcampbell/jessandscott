@@ -100,7 +100,7 @@ const Contact = () => {
                   cols="30"
                   rows="10"
                   className="contact__form-input"
-                  placeholder="Let us know!"
+                  placeholder="Let us know who's coming!"
                   value={msg}
                   onChange={(e) => setMsg(e.target.value)}
                 ></textarea>
