@@ -42,21 +42,14 @@ const About = () => {
             your favorite libations, outdoor seating, and sweet music
           </p>
           <p className="about__description_description">
-            It being a summer backyard bbq and all, we'd like to make the day an
-            optional—
-            <span>
-              <em>totally optional</em>
-            </span>
-            —potluck. To be sure,{' '}
-            <span className="bold">
-              no one is expected to bring anything, food will be provided
-            </span>{' '}
-            , but if you have some beer you particularly like, or wine, an
-            elixir, or maybe 10,000 pH water, bring some and share. If you have
-            a small dish or party snack you like to make, go on and whip up a
-            batch. More than anything, we want this to be a day where all the
-            people we love get to meet each other, come together, share stories
-            and laughs and, of course, enjoy themselves.
+            Despite it being a summer backyard bbq and all{' '}
+            <span className="bold">no one is expected to bring anything</span>.
+            But if you have some beer you particularly like, or wine, an elixir,
+            or maybe 10,000 pH water, bring some and share. If you have a small
+            dish or party snack you like to make, go on and whip up a batch.
+            More than anything, we want this to be a day where all the people we
+            love get to meet each other, come together, share stories and laughs
+            and, of course, enjoy themselves.
           </p>
           <p className="about__description_description">
             <span className="bold">
@@ -74,9 +67,10 @@ const About = () => {
                 fontStyle: 'italic',
                 marginTop: '0.5rem',
                 marginBottom: '0.5rem',
+                fontWeight: 'bold',
               }}
             >
-              Dress as yourself
+              ** Dress as yourself **
             </p>
             We want you to be you. Not an overheated, uncomfortably festooned
             version of you (remember, we are talking a cookout in mid-August).
