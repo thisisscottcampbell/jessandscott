@@ -164,7 +164,10 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    If you are staying over for the night, just Uber or Lyft 🤯
+                    There will be a shuttle running on 30min intervals to and
+                    from the parking lot. It'll run between 7:30pm and closing
+                    time for departures, and 230pm - 330pm for arrivals. In
+                    between, it can fly you spontaneously 🚌
                   </p>
                 </li>
 
@@ -179,9 +182,7 @@ const Details = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    There will be a shuttle to and from the parking lot. It'll
-                    run between 8pm and closing time, and 230pm - 330pm, as
-                    well. In between, it can fly you spontaneously 🚙
+                    If you are staying over for the night, just Uber or Lyft 🤯
                   </p>
                 </li>
               </ul>
